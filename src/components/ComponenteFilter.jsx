@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../styles/ComponenteFilter.css';
 
 function ComponenteFilter({ aplicarFiltros }) {
   const [tipo, setTipo] = useState('');
@@ -11,17 +12,17 @@ function ComponenteFilter({ aplicarFiltros }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h2>Filtrar Mascotas</h2>
-      <label>Tipo de Mascota</label>
-      <select value={tipo} onChange={(e) => setTipo(e.target.value)}>
+    <form className="filter-form" onSubmit={handleSubmit}>
+      <h2 className="filter-title">Filtrar Mascotas</h2>
+      <label className="filter-label">Tipo de Mascota</label>
+      <select className="filter-select" value={tipo} onChange={(e) => setTipo(e.target.value)}>
         <option value="">Todos</option>
         <option value="Perro">Perro</option>
         <option value="Gato">Gato</option>
       </select>
 
-      <label>Edad</label>
-      <select value={edad} onChange={(e) => setEdad(e.target.value)}>
+      <label className="filter-label">Edad</label>
+      <select className="filter-select" value={edad} onChange={(e) => setEdad(e.target.value)}>
         <option value="">Todas</option>
         <option value="Cachorro">Cachorro</option>
         <option value="Adulto">Adulto</option>
@@ -31,14 +32,14 @@ function ComponenteFilter({ aplicarFiltros }) {
         <option value="mas_de_2_anos">Más de 2 años</option>
       </select>
 
-      <label>Sexo</label>
-      <select value={sexo} onChange={(e) => setSexo(e.target.value)}>
+      <label className="filter-label">Sexo</label>
+      <select className="filter-select" value={sexo} onChange={(e) => setSexo(e.target.value)}>
         <option value="">Ambos</option>
         <option value="Macho">Macho</option>
         <option value="Hembra">Hembra</option>
       </select>
 
-      <button type="submit">Aplicar Filtros</button>
+      <button className="filter-button" type="submit">Aplicar Filtros</button>
     </form>
   );
 }

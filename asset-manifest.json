@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/peludos/static/css/main.27665b28.css",
+    "main.js": "/peludos/static/js/main.81ca8e38.js",
+    "static/js/453.6376fcc3.chunk.js": "/peludos/static/js/453.6376fcc3.chunk.js",
+    "index.html": "/peludos/index.html",
+    "main.27665b28.css.map": "/peludos/static/css/main.27665b28.css.map",
+    "main.81ca8e38.js.map": "/peludos/static/js/main.81ca8e38.js.map",
+    "453.6376fcc3.chunk.js.map": "/peludos/static/js/453.6376fcc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27665b28.css",
+    "static/js/main.81ca8e38.js"
+  ]
+}

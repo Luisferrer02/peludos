@@ -1,0 +1,134 @@
+EJERCICIO: ¡Adopta un amigo peludo! 🐶
+
+Objetivo:
+Desarrollar un formulario interactivo para la adopción de mascotas usando React. El formulario permitirá a los usuarios buscar y seleccionar una mascota para su nuevo hogar.
+
+Contexto:
+En la actualidad, miles de animales esperan ansiosamente un hogar donde ser amados. La Fundación Esperanza Animal busca facilitar el proceso de adopción responsable mediante una plataforma digital.
+
+Tu misión:
+Serás el desarrollador responsable de crear el formulario de adopción para la web de la fundación. Este formulario permitirá a los usuarios:
+● Filtrar por tipo de mascota, estado, edad, sexo, etc.
+● Ver fotos y detalles de las mascotas disponibles.
+● Completar una solicitud de adopción con sus datos personales e información sobre su hogar.
+● Enviar la solicitud para ser revisada por la fundación.
+
+Requisitos:
+● Componentes:
+    ○ Crear componentes para cada sección del formulario (filtros, lista de mascotas, formulario de solicitud).
+    ○ Usar props para pasar datos entre componentes.
+● State y useState:
+    ○ Almacenar el estado de los filtros, la lista de mascotas y la solicitud de adopción usando useState.
+    ○ Actualizar el estado dinámicamente al interactuar con el formulario.
+● Manejo de eventos:
+    ○ Implementar eventos para filtrar mascotas, seleccionar una mascota y enviar la solicitud.
+● Comunicación hijo-padre:
+    ○ Pasar información del componente hijo al componente padre (por ejemplo, la mascota seleccionada).
+● Condicionales y listas:
+    ○ Mostrar la información y las opciones relevantes según el estado actual del formulario.
+    ○ Renderizar una lista de mascotas filtradas dinámicamente.
+● Estilos:
+    ○ Aplicar estilos a los componentes para una interfaz atractiva y fácil de usar.
+    ○ Usar una combinación de estilos dinámicos, clases CSS y styled components para mayor flexibilidad.
+
+Recursos adicionales:
+● Documentación oficial de React: https://es.reactjs.org/
+● Guía de componentes de React: https://es.reactjs.org/docs/components-and-props.html
+● Comunicación entre componentes: https://es.reactjs.org/docs/lifting-state-up.html
+● Condicionales: https://es.reactjs.org/docs/conditional-rendering.html
+● Listas: https://es.reactjs.org/docs/lists-and-keys.html
+● Styled components: https://styled-components.com/
+● CSS modules: https://github.com/css-modules/css-modules
+
+Consejos:
+● Divide el formulario en componentes pequeños y manejables.
+● Usa nombres descriptivos para los componentes, props y variables.
+● Implementa una buena lógica de validación para los datos del formulario.
+● Muestra mensajes de error y éxito al usuario.
+● Desarrolla una interfaz intuitiva y atractiva.
+
+¡Recuerda! Tu trabajo ayudará a conectar a las mascotas con sus familias perfectas. ¡Empápate de la causa y crea un formulario que facilite el proceso de adopción responsable!
+
+Bonus:
+● Integra una API real para obtener la lista de mascotas disponibles: GET https://huachitos.cl/api/animales
+● Para el POST de la solicitud, puedes simularla aunque no funcione.
+
+¡Mucha suerte y éxito con los perritos! 🐕
+
+CUESTIONARIO
+1. ¿Cómo se renderiza una lista en React?
+     a) Con un bucle for de JavaScript.
+     b) Utilizando la función map() para mapear sobre un array y retornar elementos.
+     c) Con la etiqueta <list> de HTML.
+     d) No es posible renderizar listas en React.
+     Respuesta correcta: b) Utilizando la función map() para mapear sobre un array y retornar elementos.
+
+2. ¿Cuál es la forma preferida de aplicar estilos en React?
+     a) Usando estilos en línea con el atributo style.
+     b) Creando archivos CSS separados y enlazándolos en el componente.
+     c) Utilizando librerías externas como Bootstrap.
+     d) Definiendo estilos en JavaScript usando bibliotecas como Styled Components.
+     Respuesta correcta: d) Definiendo estilos en JavaScript usando bibliotecas como Styled Components.
+
+3. ¿Cuál de las siguientes opciones describe mejor cómo aplicar estilos condicionalmente en React?
+     a) Utilizando media queries en el archivo CSS global.
+     b) Escribiendo condiciones en el método render() para aplicar diferentes estilos.
+     c) Usando operadores ternarios o declaraciones if dentro del código JSX.
+     d) React no admite estilos condicionales.
+     Respuesta correcta: c) Usando operadores ternarios o declaraciones if dentro del código JSX.
+
+4. ¿Qué es una clase dinámica en React?
+     a) Una clase que cambia su nombre en cada renderizado.
+     b) Una clase que se define utilizando la palabra clave dynamic.
+     c) Una clase que puede recibir diferentes nombres dependiendo de ciertas condiciones o estados.
+     d) Una clase que solo se aplica a los componentes de clase en React.
+     Respuesta correcta: c) Una clase que puede recibir diferentes nombres dependiendo de ciertas condiciones o estados.
+
+5. ¿Cuál de las siguientes opciones describe mejor los "Styled Components" en React?
+     a) Componentes que tienen estilos predefinidos por la comunidad.
+     b) Componentes que solo aceptan estilos en línea.
+     c) Componentes que encapsulan estilos y lógica en un solo archivo.
+     d) Componentes que no admiten estilos en absoluto.
+     Respuesta correcta: c) Componentes que encapsulan estilos y lógica en un solo archivo.
+
+6. ¿Qué son los CSS Modules en React?
+     a) Archivos CSS que se cargan de forma asincrónica.
+     b) Archivos CSS que se pueden compartir entre múltiples componentes.
+     c) Archivos CSS que permiten el uso de reglas de estilo locales.
+     d) Archivos CSS que solo funcionan con componentes de clase en React.
+     Respuesta correcta: c) Archivos CSS que permiten el uso de reglas de estilo locales.
+
+7. ¿Qué hace el operador condicional ternario en React?
+     a) Permite establecer condiciones en los componentes React.
+     b) Define estilos para los componentes de React.
+     c) Realiza operaciones matemáticas en los componentes de React.
+     d) No hay operador condicional ternario en React.
+     Respuesta correcta: a) Permite establecer condiciones en los componentes React.
+
+8. ¿Cuál es el propósito principal de utilizar keys en las listas de elementos en React?
+     a) Identificar de forma única cada elemento en una lista.
+     b) Aplicar estilos diferentes a cada elemento de la lista.
+     c) Definir la longitud de la lista en React.
+     d) React no requiere keys en las listas de elementos.
+     Respuesta correcta: a) Identificar de forma única cada elemento en una lista.
+
+9. ¿Cómo puedes aplicar estilos a un componente en React utilizando un archivo CSS Modules?
+     a) Importando el archivo CSS y aplicándolo directamente en el componente usando la propiedad style.
+     b) Usando la función applyStyles() proporcionada por React para vincular el archivo CSS al componente.
+     c) Importando el archivo CSS como un objeto y utilizando sus propiedades en el componente.
+     d) React no es compatible con estilos externos mediante CSS Modules.
+     Respuesta correcta: c) Importando el archivo CSS como un objeto y utilizando sus propiedades en el componente.
+
+10. En el contexto de Styled Components, ¿qué ventajas proporciona la interpolación de variables en comparación con el uso directo de valores en los estilos?
+        a) Permite la creación de estilos estáticos.
+        b) Facilita la reutilización de estilos y la creación de temas dinámicos.
+        c) Incrementa la complejidad y reduce la legibilidad del código.
+        d) No hay diferencias significativas entre el uso de variables y valores directos en Styled Components.
+        Respuesta correcta: b) Facilita la reutilización de estilos y la creación de temas dinámicos.
+
+PARA SABER MÁS
+Condicionales:
+Curso JavaScript: 14. Condicionales - #jonmircha
+
+Estilos:
+Curso React: 23. Estilos CSS - jonmircha
